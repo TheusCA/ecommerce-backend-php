@@ -26,3 +26,19 @@ footer.php               # Componente visual inferior
 sistema.sql              # Dump principal da estrutura do banco
 add_category_schema.sql  # Script de atualização da tabela de categorias
 create_admin_user.sql    # Script de inserção do admin padrão
+
+⚙️ Como executar
+Clone este repositório.
+
+Importe os arquivos .sql no seu servidor de banco de dados para criar as tabelas necessárias.
+
+Configure os arquivos config.inc.php presentes nas pastas /admin e /user com as suas credenciais.
+
+Inicie um servidor web local (como XAMPP, Apache ou o servidor embutido do PHP) apontando para a raiz do projeto.
+
+
+Depois de colar, é só clicar no botão verde **Commit changes** lá em cima.
+
+Pronto, seu primeiro grande projeto está 100% documentado e no ar! 
+
+Para o próximo passo do seu portfólio, **você quer que eu monte a estrutura para o
